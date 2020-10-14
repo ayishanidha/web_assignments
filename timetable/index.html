@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TIMETABLE</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+    }
+    .container {
+      max-width: 750px;
+      background-color: white;
+      padding: 10px;
+      margin: 0 auto;
+      box-shadow: 0px 0px 4px 1px #ccc;
+
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    table,
+    th,
+    td {
+      border: 1px solid #03a9f4;
+      border-collapse: collapse;
+      text-transform: uppercase;
+    }
+    th,
+    td {
+      padding: 5px 10px;
+      text-align: center;
+    }
+    th {
+      background: skyblue;
+    }
+    td {
+      background: #d3eaf5;
+    }
+    tr:nth-child(even) td {
+      background-color: white;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <h1>TIMETABLE S5 CSE-B</h1>
+      <table style="width: 100%">
+        <tr>
+          <th>DAYS</th>
+          <th>8:30 to 9:30</th>
+          <th>9:30 to 10:30</th>
+          <th>10:30 to 11:30</th>
+          <th>11:30 to 12:30</th>
+          <th>12:30 to 1:30</th>
+        </tr>
+        <tr>
+          <td>monday</td>
+          <td>MMC</td>
+          <td>GTC</td>
+          <td>SC</td>
+          <td>DC</td>
+          <td>SS</td>
+        </tr>
+        <tr>
+          <td>tuesday</td>
+          <td>ASD LAB</td>
+          <td>ASD LAB</td>
+          <td>MMC</td>
+          <td>SS</td>
+          <td>DC</td>
+        </tr>
+        <tr>
+          <td>wednesday</td>
+          <td>SS</td>
+          <td>GTC</td>
+          <td>TOC</td>
+          <td>SS LAB</td>
+          <td>SS LAB</td>
+        </tr>
+        <tr>
+          <td>thursday</td>
+          <td>MMC</td>
+          <td>TOC</td>
+          <td>SC</td>
+          <td>SC</td>
+          <td>SS</td>
+        </tr>
+        <tr>
+          <td>friday</td>
+          <td>MMC</td>
+          <td>SS</td>
+          <td>SC</td>
+          <td>DC</td>
+          <td>TOC</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

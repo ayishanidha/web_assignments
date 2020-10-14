@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  background: skyblue;
+}
+.container {
+  margin: 0 auto;
+  max-width: 980px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.left-container {
+  width: 30%;
+  background-color: #363634;
+  min-height: 100%;
+}
+.right-container {
+  width: 70%;
+  background-color: whitesmoke;
+  min-height: 100%;
+  padding: 10px 25px;
+}
+.basic-profile {
+  padding: 20px 15px;
+  text-align: center;
+}
+.basic-profile img {
+  border: 5px solid #009dd5;
+  border-radius: 50%;
+  max-width: 100%;
+  max-height: 250px;
+}
+.basic-profile h1 {
+  padding-bottom: 5px;
+  color: white;
+  text-transform: capitalize;
+  border-bottom: 1px dotted whitesmoke;
+  font-size: 27px;
+  margin: 0;
+}
+.basic-profile h2 {
+  color: #b5b3b3;
+  margin: 0;
+  padding-top: 5px;
+}
+.left-subheading {
+  padding: 10px 10px;
+  background-color: #009dd5;
+  color: white;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin-right: -15px;
+}
+.address-bar p {
+  font-family: fantasy;
+  font-weight: normal;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+.chip {
+  color: white;
+  padding: 5px 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 3px;
+  font-size: 12px;
+  display: inline-block;
+}
+.left-container > div {
+  padding: 10px 15px;
+  text-align: center;
+}
+.left-resume h1 {
+  padding-left: 20px;
+  color: #716363;
+  font-style: normal;
+  font-size: 45px;
+}
+.right-resume span {
+  text-align: right;
+  padding-right: 10px;
+  font-size: 15px;
+  color: #716363;
+}
+.resume-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.right-subheading {
+  text-transform: uppercase;
+  font-family: revert;
+  padding-left: 10px;
+  border-left: 3px solid #009dd5;
+  display: flex;
+  align-items: center;
+  color: #716363;
+}
+h2.right-subheading::after {
+  content: " ";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background: #ccc;
+  flex: 1;
+  margin-left: 10px;
+}
+.about-bar p {
+  padding-top: 5px;
+  line-height: 23px;
+  color: #716363;
+}
+.education-contents > div {
+  display: flex;
+  align-items: center;
+}
+.education-contents h3 {
+  min-width: 30%;
+  color: #716363;
+}
+.education-contents h5,
+.education-contents h4 {
+  margin: 0;
+  margin-bottom: 5px;
+  padding-left: 10px;
+}
+.first-education {
+  border-left: 3px solid #009dd5;
+}
+.education-contents h4 {
+  font-size: 20px;
+  font-family: monospace;
+  color: #009dd5;
+  text-transform: uppercase;
+  letter-spacing: normal;
+}
+.education-contents h5 {
+  color: #716363;
+}

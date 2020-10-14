@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+</head>
+<style>
+    body {
+        margin: 0;
+    }
+
+    .container {
+        max-width: 700px;
+        margin: 0 auto;
+        background-color: bisque;
+        padding: 20px 0;
+    }
+
+    h2 {
+        font-size: 40px;
+        margin: 10px 0;
+        text-align: center;
+        color: red;
+    }
+
+    h3 {
+        display: block;
+        font-size: medium;
+        text-align: center;
+    }
+
+    h4 {
+        display: block;
+        text-align: center;
+        color: brown;
+        text-transform: uppercase;
+    }
+
+    .form-control {
+        max-width: 450%;
+        margin-bottom: 17px;
+        width: 46%;
+        margin-bottom: 17px;
+        display: inline-block;
+        padding-left: 25px;
+    }
+
+    .form-control label:not(.radio-label) {
+    width: 30%;
+    display: inline-block;
+}
+
+.form-control input:not([type="radio"]),.form-control select {
+    width: 63%;
+}
+    .sub-wrapper{
+        text-align: right;
+        padding-right: 20px;
+
+    }
+    .sub-wrapper input{ 
+           background-color: #2196F3;
+           color: white;
+           border: 1px solid #2196F3;
+           text-transform: uppercase;
+           padding: 5px 10px;
+        border-radius: 5px;
+
+    }
+    .info-box{    
+        padding: 10px 20px;
+        border: 1px solid #2196F3;
+        margin: 10px 20px;
+        background-color: skyblue;
+        }
+</style>
+
+<body>
+    <div class="container">
+        <h2>MES ARTS FEST 2020</h2>
+        <h3> DEC 25,26,27</h3>
+        <h4>participant registration form</h4>
+
+        <form action="">
+            <div class="form-control"><label for="fname">Full name:</label>
+                <input type="text" id="fname" name="fname" value="" placeholder="Enter your name"></div>
+            <div class="form-control"><label for="admission number">ad no:</label>
+                <input type="number" id="ad no" ad no="ad no" value=""></div>
+            <div class="form-control"><label for="Email id">Email id:</label>
+                <input type="text" id="Email id" Email id="Email id" value=""></div>
+            <div class="form-control"><label for="phone number">phone number:</label>
+                <input type="number" id="phone number" phone number="phone number" value=""></div>
+
+            <div class="form-control">
+                <label>gender:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label class="radio-label" for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label class="radio-label" for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label  class="radio-label" for="other">Other</label></div>
+            <div class="form-control">
+                <label for="choose your department">dept:</label>
+                <select id="department" name="dept">
+                    <option value="CSE">CSE</option>
+                    <option value="MECH">MECH</option>
+                    <option value="EEE">EEE</option>
+                    <option value="CIVIL">CIVIL</option>
+                    <option value="IT">IT</option>
+                    <option value="EC">EC</option>
+                    <option value="AEI">AEI</option>
+                    <option value="other">other</option>
+                </select></div>
+
+            </select>
+            <div class="form-control"><label for="item1">item1:</label>
+                <input type="text" id="item1" item1="item1" value=""></div>
+            <div class="form-control"><label for="item2">item2:</label>
+                <input type="text" id="item2" item2="item2" value=""></div><br>
+
+
+            <div class="sub-wrapper">
+                <input type="submit" value="Submit">
+            </div>
+
+
+
+        </form>
+
+        <div class="info-box"> 
+            <h5>INSTRUCTION</h5>
+            <ul>
+                <li>Inst 1:each student can participate in 2 items</li>
+                <li>Inst 2:phone number should be valid</li>
+                <li>Inst 3:candidate should atleast 15 min prior to the schedule</li>
+            </ul>
+        </div>
+
+
+        <div>
+</body>
+
+</html>
